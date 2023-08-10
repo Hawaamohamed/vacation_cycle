@@ -1,0 +1,301 @@
+body{
+   background-color:#eff0f0;
+   overflow-x: hidden;
+   font-family:'Segoe UI';
+}
+.tacolor{
+    color:#045f90;
+}
+
+
+
+.nopad{
+    padding-right:0;
+}
+.nopad1{
+    padding-left: 0;
+}
+.white-body{
+    background-color: white;
+   
+}
+.margtop{
+    margin-top: 2em;
+}
+.bak{
+    padding:5px;
+    background-color:rgba(29,138,203,.1); 
+}
+.emp-name{
+    padding:1.5em 2em;
+}
+.wrap-taps{
+  padding:0 1em;
+    display: flex;
+    width:100%;
+    border-bottom: 1px solid #ccc;
+  
+}
+.tap1,.tap2,.tap4,.tap3,.tap4,.tap5,.tap6,.tap7,.tap8{
+    padding:.5em 1.5em;
+    font-weight: 600;
+    flex-grow: 1;
+    color:#a9a6a6;
+    width:12.5%;
+    text-align: left;
+    border-left: 1px solid #a9a6a6;
+   
+    
+}
+.tap1{
+   border:none;
+}
+
+.tap1:hover,.tap2:hover,.tap3:hover,.tap4:hover,.tap5:hover,.tap6:hover,.tap7:hover,.tap8:hover{
+color:black;
+    border-bottom: 2px solid #0071bc;
+   
+    
+}
+.active-mode{
+    color:#0071bc;
+      
+
+}
+@media only screen and (max-width: 767px){
+    .wrap-taps{
+        display: block;
+        padding:0;
+    }
+     .tap1, .tap2, .tap4, .tap3,.tap5,.tap6,.tap7,.tap8{
+        width:100%;
+        text-align: center;
+        border-left:none;
+        border-bottom: 1px solid #a9a6a6;
+
+    }
+    .spacetop{
+        margin-top: 1.5em;
+    }
+    .padno{
+        padding:0 15px;
+    }
+   
+}
+
+.padno{
+    padding:0;
+}
+.sec-tap1{
+   
+    padding:1.5em;
+}
+.sec-tap2{
+    display:none;
+    padding:1em;
+     
+}
+.sec-tap2  table th {
+    background-color:#f9fbfb;
+    text-align:left;
+    font-size:12px;
+    padding:0;
+
+}
+.sec-tap4 table th {
+     background-color:#f9fbfb;
+    text-align:left;
+    font-size:12px;
+    padding:0;
+}
+table td{
+    text-align: left;
+}
+.sec-tap2 td a {
+    margin-bottom:0;
+    text-decoration:none;
+                    }
+.sec-tap4 td a {
+      margin-bottom:0;
+    text-decoration:none;
+}
+.sec-tap2 table td {
+    padding:0;
+    font-size:12px;
+    text-align:left;
+}
+   .sec-tap4 table td {
+        padding:0;
+    font-size:12px;
+    text-align:left;
+   }
+.sec-tap3{
+    display:none;
+    padding:1em;
+
+}
+.sec-tap4{
+    display:none;
+    padding:1em;
+}
+.sec-tap5{
+    display:none;
+    padding:1em;
+}
+.sec-tap6{
+    display:none;
+    padding:1em;
+}
+.sec-tap7{
+    display:none;
+    padding:1em;
+}
+.sec-tap8{
+    display:none;
+    padding:1em;
+}
+.grey{
+    text-align: left;
+   float:right;
+    color:#a9a6a6;
+}
+.inline{
+    display: inline;
+}
+.right{
+ 
+    float: right;
+}
+.padlr{
+    padding:1em 2em;
+}
+.insideupdates{
+    padding:1em 0em;
+}
+.updates-box{
+    padding:1em;
+    box-shadow: 0 0.25em 0.5em rgba(0,0,0,.2);
+}
+.appbtn{
+    text-align: right;
+    padding:1em 0;
+}
+.approve{
+    background-color:#045f90;
+    color:white;
+}
+.martop{
+    margin-top: 1.5em;
+}
+.grey2{
+    float:right;
+   
+    color:#ccc;
+}
+.sec-size{
+    min-height:669px;
+   overflow:auto;
+}
+
+@media only screen and (max-width: 768px){
+    .spacetop{
+       margin-top: 1.5em;
+    }
+    .left-navabar{
+        display: none;
+    }
+    .mytext{
+        text-align:left!important;
+    }
+}
+.emp-name span{
+   display: inline-block;
+    margin-bottom: .5em;
+}
+.emp-name h4 {
+    margin-top:0;
+}
+.sec-tap1 label , .sec-tap2 label , .myline label{
+    margin:0;
+    font-weight:400;
+    font-size:12px;
+   
+}
+.sec-tap1 p , .sec-tap2 p, .myline p{
+    font-size:14px;
+     font-weight:600;
+    
+}
+.myline{
+   
+    padding-bottom:8px;
+}
+.inline-blo{
+    display:inline-block;
+    float:left;
+}
+.sec-tap3 span {
+     color:#a9a6a6;
+    margin-top:8px;
+}
+.f-grey{
+     color:#045f90;
+     font-size:10px;
+}
+.tag{
+   display:inline-block;
+    background-color:#045f90;
+    color:white;
+    padding:.1em .2em;
+    margin-top:.5em;
+    margin-left:.25em;
+    font-size:10px;
+}
+.tag:hover{
+     background-color:#045f90;
+    color:white;
+}
+.dis-bloc{
+    display:block;
+    overflow:auto;
+}
+.card{
+    background-color:#eff0f0;
+    box-shadow: 0 0.25em 0.5em rgb(179, 183, 183);
+    border-radius:.5em;
+    min-height:250px;padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-contact p {
+    margin-bottom:5px;
+    font-size:12px;
+}
+.card-contact{
+    padding:.5em .75em;
+    border-bottom:1px solid #ccc;
+    overflow:auto;
+}
+.by{
+       padding:.5em .75em;
+   overflow:auto;
+   display:block;
+}
+.by p {
+      font-size:12px;
+}
+.by span{
+     color:#a9a6a6;
+}
+.addnew{
+    background-color:#045f90;
+    color:white;
+    padding:.25em .5em;
+}
+.addnew:hover{
+     background-color:#045f90;
+    color:white;
+                  }
+.sec-tap2 a{
+    display:inline-block;
+    margin-bottom:1em;
+}

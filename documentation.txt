@@ -1,0 +1,7 @@
+1- Migration Database => 1:30 h
+2- Modal => 30 m
+3- controller => 5 h
+4- view => 4h
+5- Design => 5h
+6- Captcha => 2h
+7- Deploy project on host => 9h only for first time 

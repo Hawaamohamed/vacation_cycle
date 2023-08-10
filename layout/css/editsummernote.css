@@ -1,0 +1,9 @@
+﻿body
+{ font-family:'Segoe UI';
+}
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+    font-family:'Segoe UI';
+    font-size:12px;
+    font-weight:500;
+   color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
+}

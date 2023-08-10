@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#eff0f0;
+    font-family:'Segoe UI';
+    text-transform: capitalize;
+}
+
+label {
+
+    text-transform: capitalize!important;
+}
+
+/*style of header area */
+.headerarea{
+    padding: .5em 1em;
+    margin-top: 1em; 
+background-color: white;
+border-radius: .5em;
+border:1px solid grey;
+
+}
+.headerarea p{
+    margin-top: .5em;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.headerarea h4{
+    margin:0;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+/*end stylen of header area */
+.bot-border{
+    border-bottom:1px solid #eee;
+}
+.rp-no{
+    padding-right:0;
+}
+.ptb{
+    padding-top:.5em;
+    padding-bottom:.5em;
+}
+.whiteback{
+    background-color:white;
+    font-family:'Segoe UI';
+}
+.whiteback label {
+    margin:0;
+    font-weight:500;
+}
+.whiteback p {
+    font-size:12px;
+     font-weight:700;
+}
+.whitebox{
+     background-color:white;
+}
+.white-opacity{
+    opacity:0.5;
+}
+.greyback{
+      background-color:white;
+     padding-left:0;
+     padding-right:0;
+     border-radius:.5em;
+     font-family:'Segoe UI';
+      box-shadow: 0 0.25em 0.5em rgb(179, 183, 183);
+}
+.whiteback h4{
+    font-size:18px;
+}
+.whiteback h5 {
+    font-size:14px;
+}
+.m-t-2{
+    margin-top:2em;
+}
+.mt-1{
+    margin-top:1em;
+}
+.mb-1{
+    margin-bottom:1em;
+}
+.ptb-2{
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.pb{
+ padding-bottom:1em;
+}
+.pt-1{
+    padding-top:1em;
+}
+.pt{
+    padding-top:.5em;
+}
+.np{
+    padding-left:0;
+    padding-right:0;
+}
+
+
+.select-label{
+    background-color:transparent;
+}
+.btn-ta-1{
+     background-color:#045f90;
+    color:white;
+    border:none;
+    width:20%;
+    font-family:'Segoe UI';
+    font-size:12px;
+}
+btn-ta-1:hover{
+       background-color:#045f90;
+    color:white;
+}
+.btn-ta{
+    background-color:#045f90;
+    color:white;
+    border:none;
+    font-family:'Segoe UI';
+     font-size:12px;
+   
+}
+.btn-ta:hover{
+       background-color:#045f90;
+    color:white;
+}
+
+.visible{
+  
+width: 100%;
+color: black;
+height: 1px;
+
+}
+label{
+    font-weight:500;
+}
+.h4-tit h4,h5{
+    color:#045f90;
+    font-weight:600;
+    font-family:'Segoe UI';
+}
+.selection{
+    overflow:auto;
+}
+.btn-sk{
+    border-color:#ccc;
+    font-size:12px;
+}
+
+@media only screen and (max-width: 768px){
+    .rt{
+        margin-top:1em;
+    }
+  
+    .rt-5{
+        margin-top:.5em;
+    }
+    .mt5{
+         margin-top:.5em;
+    }
+    .mtop{
+        margin-top:1em;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .table-document {
+        overflow-x:auto;
+    }
+   
+    .p-5{
+        padding-top:.5em;
+    }
+    .r-t{
+        margin-top:1em;
+    }
+      .mb{
+        margin-bottom:1em;
+    }
+}
+.custom-file{
+    display:flexbox;
+    align-items:center;
+}
+.custom-file label{
+   
+}
+.mydoc{
+   
+  
+}
+.mydoc h5{
+   
+}
+.padtb{
+    padding-top:10px ;
+    padding-bottom:10px;
+}
+.mydoc{
+
+     padding:10px;
+     margin-top:.5em;
+      background-color:#f8f9fa;
+     border-bottom: 1px solid #ccc;
+     margin-bottom:.5em;
+   border-radius:.5em;
+
+}
+.doc{
+      width:100%;
+      display:flex;
+      justify-content:space-between;
+      align-content:center;
+}
+.circ{
+    text-align:center;
+    line-height:inherit;
+    padding:.4em;
+   background-color:transparent;
+   
+   font-weight:600;
+    border-radius:50%;
+     border:none;
+     margin-top:.5em
+  
+}
+.circ,.tage:active{
+    border:none;
+}
+.btnstatus{
+    background-color:#045f90;
+    color:white;
+    padding:.25em .5em;
+    font-size:10px;
+}
+.mydoc h5{
+    text-decoration:underline;
+}
+.checkinput{
+
+}
+.doc button {
+    display:inline-block;
+}
+.doc p {
+    margin-top:5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.table {
+    background-color: #f9fbfb;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+      box-shadow: 0 0.25em 0.5em rgb(204, 209, 209);
+}
+
+.pb-2{
+    padding-bottom: 2em;
+}
+.mt-5{
+    margin-top: 1em;
+}
+.driver-sec{
+    display:none;
+}
